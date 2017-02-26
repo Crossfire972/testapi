@@ -16,3 +16,21 @@ To check the it started correctly, run:
 docker ps | grep testapi
 docker logs testapi
 ```
+
+To stop the container, run:
+```bash
+docker stop testapi
+```
+
+To delete the container, run:
+```bash
+docker rm testapi
+
+# If the container is still running use (-f)
+docker rm -f testapi
+```
+
+To remove the image, run:
+```bash
+docker rmi crossfire972/testapi
+```
