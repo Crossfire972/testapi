@@ -1,5 +1,12 @@
 # Testapi
 
+### Go commands
+
+```bash
+go get github.com/Crossfire972/testapi
+cd $GOPATH/src/github.com/Crossfire972/testapi
+```
+
 ### Docker Commands
 
 To create the conainter, run:
